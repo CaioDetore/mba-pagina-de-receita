@@ -1,3 +1,40 @@
+:root {
+  color: #573A37;
+  line-height: 150%;
+  font-family: 'Alice', serif;
+}
+
+body {
+  margin: 0;
+  background-size: cover;
+  background-image: url(/assets/bg-image.png);
+}
+
+.container {
+  width: 800px;
+  
+  padding: 24px;
+  box-sizing: border-box;
+
+  margin: 42px auto;
+  border-radius: 24px;
+  background-color: #F0E8C2;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
 img {
   border-radius: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 140%;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1, h2 {
+  color: #291B1A;
 }
